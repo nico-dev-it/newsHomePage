@@ -153,6 +153,10 @@ nav {
     margin-top: 30px
 }
 
+.mobileNav {
+    display: none;
+}
+
 @media screen and (max-width: 750px) {
     .mainNewsContainer {
         display: flex;
@@ -178,4 +182,13 @@ nav {
         width: 100%;
         margin-bottom: 10px;
     }
+
+    .mobileNav {
+        display: flex;
+    }
+    
+    .navLinkContainer a {
+        display: none;
+    }
+
 }
