@@ -162,6 +162,9 @@ nav {
 }
 
 @media screen and (max-width: 750px) {
+    body {
+        padding: 10px;
+    }
     .mainNewsContainer {
         display: flex;
         flex-direction: column;
