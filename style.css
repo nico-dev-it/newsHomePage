@@ -1,0 +1,154 @@
+body {
+    font-family: Inter,sans-serif;
+    padding: 50px 100px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.navLinkContainer {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+}
+
+.navLinkContainer a {
+    text-decoration: none;
+    color: #5D5F79FF;
+}
+
+.mainNewsContainer {
+    display: flex;
+}
+
+.mainArticle {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.mainArticle img {
+    width: 100%;
+}
+
+.mainNewsText {
+    display: flex;
+    flex-direction: row;
+}
+
+.mainNewsTitle {
+    font-weight: 800;
+    font-size: 20px;
+    width: 700px;
+    padding-right: 20px;
+}
+
+.mainNewsContent {
+    padding: 15px;
+    margin-left: 20px;
+}
+.text {
+    font-weight: 400;
+    font-size: 15px;
+    color: #5D5F79FF
+}
+
+.link {
+    width: 120px;
+    display: flex;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.link a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 10px;
+    color: #FFFDFAFF;
+    background-color: #F15E50FF;
+    padding: 10px;
+    width: 300px;
+}
+
+.otherNews {
+    padding: 10px;
+    margin-left: 20px;
+    background-color: #00001AFF;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.otherNews h1 {
+    color:hsl(35, 77%, 62%);
+    margin: 2px
+}
+
+.otherNews h2 {
+    color: #FFFDFAFF;
+    font-size: 15px;
+}
+
+.otherNews p {
+    font-weight: 400;
+    font-size: 15px;
+    color: #C5C6CEFF;
+}
+
+.solid {
+    margin: 5px 0;
+    border-top: 0 solid #C5C6CEFF;
+}
+
+.bottomNewsContainer {
+    display: flex;
+    margin-top: 30px;
+}
+
+.newsTile {
+    display: flex;
+    width: 33%;
+}
+
+.newsTile img {
+    height: 100px;
+    width: 80px;
+}
+
+.newsText {
+    display: flex;
+    flex-direction: column;
+}
+.newsText h4, h3{
+    margin: 5px;
+}
+
+.newsText h3 {
+    color: #C5C6CEFF;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.newsText h4 {
+    font-size: 15px;
+}
+
+.newsText p {
+    margin: 5px;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.attribution {
+    font-size: 10px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 30px
+}
