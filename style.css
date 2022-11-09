@@ -157,6 +157,10 @@ nav {
     display: none;
 }
 
+.mobileMenuContainer {
+    display: none;
+}
+
 @media screen and (max-width: 750px) {
     .mainNewsContainer {
         display: flex;
@@ -186,9 +190,36 @@ nav {
     .mobileNav {
         display: flex;
     }
-    
+
     .navLinkContainer a {
         display: none;
+    }
+
+    .mobileMenuContainer {
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 70vw;
+        height: 100vh;
+        background-color: #FFFDFAFF;
+    }
+
+    .menuLinks {
+        display: flex;
+        flex-direction: column;
+        margin: 80px 0 0 20px;
+        gap: 50px;
+    }
+
+    .menuLinks a {
+        text-decoration: none;
+        color:#00001AFF;
+    }
+
+    .closeButton {
+        position: fixed;
+        right: 10px;
+        top: 10px;
     }
 
 }
