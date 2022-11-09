@@ -152,3 +152,30 @@ nav {
     text-align: center;
     margin-top: 30px
 }
+
+@media screen and (max-width: 750px) {
+    .mainNewsContainer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mainArticle {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        width: 100%;
+    }
+
+    .otherNews {
+        margin-left: 0
+    }
+
+    .bottomNewsContainer {
+        flex-direction: column;
+    }
+
+    .newsTile {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
