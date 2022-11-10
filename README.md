@@ -18,10 +18,10 @@ Users should be able to:
 
 ### Desktop view
 
-![](./assets/images/Screenshot 2022-11-10 at 10.31.09.png)
+![](./assets/images/desktop.png)
 
 ### Mobile view
-![](./assets/images/Screenshot 2022-11-10 at 10.31.43.png)
+![](./assets/images/mobile.png)
 
 ## Built with 
 - HTML
