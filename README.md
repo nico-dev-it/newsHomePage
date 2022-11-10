@@ -17,10 +17,11 @@ Users should be able to:
 ## Screenshots
 
 ### Desktop view
-![](assets/images/Screenshot 2022-11-10 at 10.31.09.png)
+
+![](./assets/images/Screenshot 2022-11-10 at 10.31.09.png)
 
 ### Mobile view
-![](assets/images/Screenshot 2022-11-10 at 10.31.43.png)
+![](./assets/images/Screenshot 2022-11-10 at 10.31.43.png)
 
 ## Built with 
 - HTML
