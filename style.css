@@ -22,6 +22,10 @@ nav {
     color: #5D5F79FF;
 }
 
+.navLinkContainer a:hover {
+    color: #E9AB53FF;
+}
+
 .mainNewsContainer {
     display: flex;
 }
@@ -87,13 +91,20 @@ nav {
 }
 
 .otherNews h1 {
-    color:hsl(35, 77%, 62%);
+    color: #E9AB53FF;
     margin: 2px
+
 }
 
-.otherNews h2 {
+.otherNews a {
     color: #FFFDFAFF;
-    font-size: 15px;
+    font-size: 17px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.otherNews a:hover {
+    color: #E9AB53FF;
 }
 
 .otherNews p {
